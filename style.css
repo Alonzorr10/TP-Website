@@ -1,6 +1,40 @@
 .background{
     color: beige;
 }
-.p1{
+.heading{
     text-align: center;
+    font-weight: bold;
+}
+div.heading{
+    background-color: bisque;
+}
+
+.search input[type=text]{
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+
+.tablink{
+  background-color: #555;
+  color: white;
+  float: right;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+.tablink hover{
+    background-color: #777;
+}
+.container{
+  color: white;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
 }
