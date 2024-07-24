@@ -2,43 +2,53 @@
 <html lang = "en-US">
     <head>
         <Title>TP Electric </Title>
-        <link ref = "stylesheet" href = "style.css">
+        <style>
+            .Heading{
+                text-align: center;
+                font-weight: bolder;
+            }
+            body{
+            background-color: rgb(249, 205, 152);
+            }
+            .tablink{
+            background-color: rgb(223, 176, 117);
+            color: white; 
+            float: left;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            padding: 14px 16px;
+            font-size: 17px;
+            width: 25%;
+            }
+            .tablink:hover{
+            background-color: rgb(247, 187, 113);
+            }
+            .container input[type=text]{   
+            float: right;
+            padding: 6px;
+            border: none;
+            margin-top: 8px;
+            margin-right:50px;
+            font-size: 17px;
+            }
+        </style>
     </head>
     <body>
+        <div class = "Heading">
+         TP ELECTRIC
+        </div>  
         <button class = "tablink" onclick="openPage('Home', 'this', 'grey')">Home</button>
         <button class = "tablink" onclick="openPage('About', 'this', 'grey')">About</button>
         <button class = "tablink" onclick="openPage('Contact', 'this', 'grey')">Contact</button>
 
         <div class = "container">
-            <div id = "home" class = "content">
-                <h1>
-                    Home
-                </h1>
-
-            </div>
-            <div id = "About" class = "content">
-                <h2>
-                    About
-                </h2>
-
-            </div>
-            <div id = "Contact" class = "content"> 
-                <h3>
-                    Contact
-                </h3>
-
-            </div>
-           <div id = "Search" >
+           <div id = "Search">
             <input type = "text" placeholder="Search...">
            </div>
         </div>
-      <div class = "Heading">
-        <div>
-        <heading title = "TP Electric">
-         TP Electric
-        </heading>
-        </div>
-      </div>  
+
+      
 
       <div class = "body">
         <div>
