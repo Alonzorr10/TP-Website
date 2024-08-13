@@ -1,2 +1,140 @@
+.Heading{
+    text-align: center;
+    font-weight: bolder;
+    }
+    body{
+    background-color: rgb(249, 205, 152);
+    }
+    .menu{
+    overflow: visible;
+    background-color: rgb(223, 176, 117);
+    position: relative;
+    z-index: 1;
+    }
+    
+    .dropdown {
+    position: relative;
+    display: inline-block;
+    z-index: 2;
+    }
+    .dropdown .tablink{
+    background-color: rgb(223, 176, 117);
+    color: white; 
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 14px;
+    }
+    .dropdown .tablink2{
+    background-color: rgb(223, 176, 117);
+    color: white; 
+    margin-left: 100px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 14px;
+    }
 
+    .dropdown .tablink3{
+    background-color: rgb(223, 176, 117);
+    color: white; 
+    margin-left: 100px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 14px;
+    }
+
+    .dropdown .tablink:hover{
+    background-color: rgb(247, 187, 113);
+    }
+    .dropdown .tablink2:hover{
+    background-color: rgb(247, 187, 113);
+    }
+    .dropdown .tablink3:hover{
+    background-color: rgb(247, 187, 113);
+    }
+
+    .dropdown:hover .tablink:hover + .content, .dropdown:hover .content:hover{
+        display:block;
+    }
+    .dropdown:hover .tablink2:hover + .content2, .dropdown:hover .content2:hover{
+        display:block;
+    }
+    .dropdown:hover .tablink3:hover + .content3, .dropdown:hover .content3:hover{
+        display:block;
+    }
+
+    .content {
+    display: none;
+    position:absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1000;
+    top: 100%;
+    left: 0;
+    }
+    .content2 {
+    display: none;
+    position:absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1000;
+    top: 100%;
+    left: 170px;
+    }
+
+    .content3 {
+    display: none;
+    position:absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1000;
+    top: 100%;
+    left: 342px;
+    }
+
+    .content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    float: none;
+    text-align: left;
+    }
+    .content2 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    float: none;
+    text-align: left;
+    }
+    .content3 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    float: none;
+    text-align: left;
+    }
+    .content a:hover {background-color: #ddd;}
+    .content2 a:hover {background-color: #ddd;}
+    .content3 a:hover {background-color: #ddd;}
+    
+    .container input[type=text]{   
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right:50px;
+    font-size: 17px;
+    }
 

@@ -2,51 +2,35 @@
 <html lang = "en-US">
     <head>
         <Title>TP Electric </Title>
-        <style>
-            .Heading{
-                text-align: center;
-                font-weight: bolder;
-            }
-            body{
-            background-color: rgb(249, 205, 152);
-            }
-            .tablink{
-            background-color: rgb(223, 176, 117);
-            color: white; 
-            float: left;
-            border: none;
-            outline: none;
-            cursor: pointer;
-            padding: 14px 16px;
-            font-size: 17px;
-            width: 25%;
-            }
-            .tablink:hover{
-            background-color: rgb(247, 187, 113);
-            }
-            .container input[type=text]{   
-            float: right;
-            padding: 6px;
-            border: none;
-            margin-top: 8px;
-            margin-right:50px;
-            font-size: 17px;
-            }
-        </style>
+        <link rel = "stylesheet" type="text/css" href="style.css">
     </head>
     <body>
         <div class = "Heading">
          TP ELECTRIC
-        </div>  
-        <button class = "tablink" onclick="openPage('Home', 'this', 'grey')">Home</button>
-        <button class = "tablink" onclick="openPage('About', 'this', 'grey')">About</button>
-        <button class = "tablink" onclick="openPage('Contact', 'this', 'grey')">Contact</button>
-
-        <div class = "container">
-           <div id = "Search">
-            <input type = "text" placeholder="Search...">
-           </div>
         </div>
+
+    <div class = "menu">
+        <div class = "dropdown">
+        
+        <button class = "tablink">Home</button>
+            <div class = "content">
+                <a href = "#">Home</a>
+            </div>
+        <button class = "tablink2">About</button>
+            <div class = "content2">
+                <a href="#">Mission</a>
+                <a href="#">Staff</a>
+                <a href="#">Location</a>
+            </div>
+        <button class = "tablink3">Contact</button>
+            <div class = "content3">
+                <a href="#">Contact Us</a>
+            </div>    
+        
+        
+    </div> 
+</div> 
+        
 
       
 
